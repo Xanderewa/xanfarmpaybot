@@ -1,13 +1,14 @@
 {
-  "name": "nodejs",
+  "name": "xanfarm-paybot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot de pagos para XanFarm",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["telegram", "bot", "pay", "xanfarm"],
+  "author": "Alexander",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^22.13.11",
