@@ -12,7 +12,7 @@ app.listen(PORT, () => {
   console.log(`✅ Servidor Express activo en puerto ${PORT}`);
 });
 
-const bot = new TelegramBot('8138583866:AAFSlt4nxgABfKW2lfBMYPwP51WV4A8igxw', { polling: true });
+const bot = new TelegramBot(process.env.TOKEN, { polling: true });
 
 const paquetes = {
   1: { nombre: "Starter", llaves: 100, cultivos: "1 Épico (aleatorio)", precio: 2.99, emoji: "🌱" },
